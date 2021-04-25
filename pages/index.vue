@@ -21,7 +21,7 @@
         <button
           class="flex mx-auto mt-16 text-white bg-green-900 border-0 py-2 px-8 focus:outline-none hover:bg-red-900 rounded text-lg"
         >
-          <nuxt-link :to="`/docs`">View Posts </nuxt-link>
+          <nuxt-link :to="`/blog`">View Posts </nuxt-link>
         </button>
       </div>
     </div>
