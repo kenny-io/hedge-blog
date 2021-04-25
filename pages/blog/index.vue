@@ -22,8 +22,11 @@
             <p class="leading-relaxed">
               {{ post.description }}
             </p>
-            <a class="text-green-500 inline-flex items-center mt-4">
-              <nuxt-link :to="`/blog/${post.slug}`"> Read More </nuxt-link>
+            <nuxt-link
+              class="text-green-500 inline-flex items-center mt-4"
+              :to="`/blog/${post.slug}`"
+            >
+              Read More
               <svg
                 class="w-4 h-4 ml-2"
                 viewBox="0 0 24 24"
@@ -36,7 +39,7 @@
                 <path d="M5 12h14"></path>
                 <path d="M12 5l7 7-7 7"></path>
               </svg>
-            </a>
+            </nuxt-link>
           </div>
         </div>
       </div>
